@@ -1,0 +1,4 @@
+ public void branch(String newBranch) {
+        branches.put(newBranch, branches.get(currentBranch).clone());
+        System.out.println("Created branch: " + newBranch);
+    }
